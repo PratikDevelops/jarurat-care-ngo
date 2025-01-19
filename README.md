@@ -16,6 +16,4 @@ This is a web application for the **Jarurat Care NGO** designed to allow users t
 - API integration for GET and POST requests
 - Data filtering and searching functionality
 
-## Live Demo:
-You can view the live demo of the project here: [Vercel Live URL](jarurat-care-ngo.vercel.app)
 
