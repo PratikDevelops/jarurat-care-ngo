@@ -19,7 +19,3 @@ This is a web application for the **Jarurat Care NGO** designed to allow users t
 ## Live Demo:
 You can view the live demo of the project here: [Vercel Live URL](jarurat-care-ngo.vercel.app)
 
-## Getting Started:
-
-To run the project locally, clone the repository and install the dependencies:
-
