@@ -1,0 +1,113 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  background-color: #fff8f0;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  color: #d66b35;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.sub-title {
+  font-size: 1.6rem;
+  color: #8a6e53;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.cta-btn {
+  margin: 0 15px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+  background-color: #f79c42;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn:focus {
+  outline: none;
+  border: 2px solid #d66b35;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #6e4e3d;
+  text-align: center;
+  line-height: 1.7;
+  margin-top: 30px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 20px;
+  }
+
+  .main-title {
+    font-size: 2.8rem;
+  }
+
+  .sub-title {
+    font-size: 1.4rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+}
+
+.main-title:hover {
+  color: #f79c42;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #d66b35;
+  margin-bottom: 20px;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button, a {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
